@@ -12,3 +12,7 @@ This project is primarily focused on the following topics:
 
 **Keypoints detected using FAST detector on the entire image frame**
 ![FAST keypoints detected](Results/FAST_entireFrame.jpg)
+
+**Keypoints detected using FAST detector only on the front car**
+![FAST keypoints detected](Results/FAST_onlyFrontCar.jpg)
+
