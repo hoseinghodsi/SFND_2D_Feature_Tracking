@@ -20,7 +20,7 @@ This project is primarily focused on the following topics:
 ![Matched keypoints](Results/ShiTomasi-Brief_matching_keypoints.jpg)
 
 #### MP.7 Performance evaluation 1
-Count the number of keypoints on the preceding vehicle for all 10 images and take note of the distribution of their neighborhood size. Do this for all the detectors you have implemented.
+- Count the number of keypoints on the preceding vehicle for all 10 images and take note of the distribution of their neighborhood size. Do this for all the detectors you have implemented.
 
 **The average number of keypoints detected and the average processing time for 10 consecutive images**
 ![Number keypoints detected](Results/MP7-nKeypoint_vs_detectorType-Table.jpg)
@@ -35,12 +35,28 @@ This conclusion can be seen in the following figure.
 
 #### MP.7 Performance evaluation 2
 
-Count the number of matched keypoints for all 10 images using all possible combinations of detectors and descriptors. In the matching step, the BF approach is used with the descriptor distance ratio set to 0.8.
+- Count the number of matched keypoints for all 10 images using all possible combinations of detectors and descriptors. In the matching step, the BF approach is used with the descriptor distance ratio set to 0.8.
 
 The raw data (SFND_PerformanceEvaluation.xlsx) for all 10 images can be found in Results folder. For simplicity purposes, below I provided the average number matched points over all the images.  
 
 
 **The average number of matched keypoints**
 ![matched_keypoints_performance](Results/MP8-matched_points-BruteForce-KNN-Table.jpg)
+
+
+#### MP.7 Performance evaluation 3
+
+- Log the time it takes for keypoint detection and descriptor extraction. The results must be entered into a spreadsheet and based on this data, the TOP3 detector / descriptor combinations must be recommended as the best choice for our purpose of detecting keypoints on vehicles.
+
+**The average processing time for detection/description using different combination of detector/descriptor types**
+![detector_descriptor_performance](Results/MP9-TopThree-detection_description_performance.jpg)
+
+
+Based on the table shown above, we can list the three top performer combimation as:
+
+**1- FAST/BRIEF -> 1.76 ms
+  2- FAST/ORB   -> 2.08 ms
+  3- FAST/BRISK -> 2.95 ms
+
 
 
