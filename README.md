@@ -4,6 +4,6 @@
 
 This project is primarily focused on the following topics:
 
-- Using ring buffers to avoid memory bloat while processing a sequence of images
-- Keypoint detectors such as: Shi-Tomasi, Harris, FAST, BRISK, ORB, AKAZE, and SIFT
-- Keypoint descriptor extraction and matching with: FLANN and k-NN
+- Implementing a buffer to avoid exessive usage of memory wile processing a sequence of images; thus, preventing potential slowing down of the program 
+- Utilizing various keypoint detectors such as: Shi-Tomasi, Harris, FAST, BRISK, ORB, AKAZE, and SIFT
+- Utilizing differnt keypoint descriptors and ultimately matching the keypoints in succesive images using Brute Force/FLANN and NN/kNN
