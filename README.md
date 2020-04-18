@@ -21,3 +21,8 @@ This project is primarily focused on the following topics:
 **The average number of keypoints detected and the average processing time for 10 consecutive images**
 ![Number keypoints detected](Results/MP7-nKeypoint_vs_detectorType-Table.jpg)
 
+As seen in table above, the number of keypoints detected varies considerably with different detector types. One comparison criteria could be simply looking at the highest number of keypoints detected; however, I think it is also important to compare the detector types performance based on the number of keypoints detected and the time it took for the detector to detect those keypoints. Therefore, I defined a metric in which the number of keypoints detected is normalized based on the processing time (last column in the table).
+Following this metric, we can clearly conclude that FAST detector perfrom significantly faster than othe detectors while detecting acceptable number of keypoints. This conclusion can be seen in the following figure. 
+
+**The average number of keypoints detected and num keypoints per time**
+![keypoints_detected_performance](Results/MP7-nKeypoint_vs_detectorType.jpg)
