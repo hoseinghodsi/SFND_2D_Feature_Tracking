@@ -17,7 +17,7 @@ This project is primarily focused on the following topics:
 ![FAST keypoints detected](Results/FAST_onlyFrontCar.jpg)
 
 **Matching keypoints detected (Shi Tomasi - BRIEF) in two consecutive images**
-![Matched keypoints](Results/ShiTomasi-Brief matching keypoints.jpg)
+![Matched keypoints](Results/ShiTomasi-Brief_matching_keypoints.jpg)
 
 #### MP.7 Performance evaluation 1
 Count the number of keypoints on the preceding vehicle for all 10 images and take note of the distribution of their neighborhood size. Do this for all the detectors you have implemented.
@@ -41,6 +41,6 @@ The raw data (SFND_PerformanceEvaluation.xlsx) for all 10 images can be found in
 
 
 **The average number of matched keypoints**
-![matched_keypoints_performance](Results/MP8-matched points-BruteForce-KNN-Table.jpg)
+![matched_keypoints_performance](Results/MP8-matched_points-BruteForce-KNN-Table.jpg)
 
 
