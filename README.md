@@ -16,3 +16,8 @@ This project is primarily focused on the following topics:
 **Keypoints detected using FAST detector only on the front car**
 ![FAST keypoints detected](Results/FAST_onlyFrontCar.jpg)
 
+#### MP.7 Performance evaluation 1
+
+**The average number of keypoints detected and the average processing time for 10 consecutive images**
+![Number keypoints detected](Results/MP7-nKeypoint_vs_detectorType-Table.jpg)
+
