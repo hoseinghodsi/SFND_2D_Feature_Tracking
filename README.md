@@ -54,9 +54,9 @@ The raw data (SFND_PerformanceEvaluation.xlsx) for all 10 images can be found in
 
 Based on the table shown above, we can list the three top performer combimation as:
 
-**- 1- FAST/BRIEF -> 1.76 ms **
-**- 2- FAST/ORB   -> 2.08 ms **
-**- 3- FAST/BRISK -> 2.95 ms **
+- 1- FAST/BRIEF -> 1.76 ms
+- 2- FAST/ORB   -> 2.08 ms
+- 3- FAST/BRISK -> 2.95 ms
 
 
 
